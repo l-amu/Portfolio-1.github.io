@@ -10,6 +10,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
 }
 
 header h1 {
@@ -17,23 +19,34 @@ header h1 {
 }
 
 .block-div {
-   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    padding: 50px;
+    align-items: center;
+    padding: 50px;
+    background-color: black;
+}
 
+.block-div p {
+    display: flex;
 }
 
 .block-1 {
     background-color: darkgray;
-    padding: 50px 30px 600px 30px;
+    padding: 50px;
     margin-left: 120px;
     width: 400;
     height: 400;
-
+    display: flex;
+    margin-bottom: 20px;
 }
 
 .block-2 {
     background-color: violet;
     margin-left: 120px;
-    padding: 50px 30px 600px 30px;
+    padding: 50px;
+    margin-bottom: 20px;
 
 }
 
@@ -42,14 +55,19 @@ header h1 {
     width: 400;
     height: 400;
     margin-left: 120px;
-    padding: 50px 30px 600px 30px;
+    padding: 50px;
+    margin-bottom: 20px;
     
 }
 
 .block-4 {
-    background-color: yellow;
     margin-left: 120px;
-    padding: 50px 30px 600px 30px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.block-div h2 {
+    color: blanchedalmond;
 }
 
 header nav ul li {
@@ -62,6 +80,23 @@ header nav ul li {
 
 header h1 {
     color: blanchedalmond;
+}
+
+.contact-method {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+footer h3 {
+    display: inline-block;
+    color: blueviolet;
+    padding: 100px;
+    margin-top: 10px;
+
 }
 
    
