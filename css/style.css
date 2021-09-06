@@ -13,14 +13,15 @@ header {
     position: sticky;
     top: 0;
 }    
-    div h1{
-        color: white;
-    }
+/* still not working */
+h1 {
+    color:blanchedalmond;
 }
 
 header nav ul li a {
-    color: white;
+    color:blanchedalmond;
 }
+
 header h1 {
     padding: 30px;
 }
@@ -34,18 +35,23 @@ header h1 {
     background-color: black;
 }
 
+
 .block-div p {
     display: flex;
 }
 
 .block-1 {
-    background-color: darkgray;
+    background-color: rosybrown;
     padding: 50px;
     margin-left: 120px;
     width: 400;
     height: 400;
     display: flex;
     margin-bottom: 20px;
+}
+
+.block-1 h2 {
+    color: red;
 }
 
 /* .block-2 p {
@@ -53,22 +59,19 @@ header h1 {
     padding-left: 30px;} */
 
 .block-2 {
-    background-color: violet;
+    background-color: rosybrown;
     margin-left: 120px;
     padding: 50px;
     margin-bottom: 20px;
-    
-
 }
 
 .block-3 {
-    background-color: tomato;
+    background-color: rosybrown;
     width: 400;
     height: 400;
     margin-left: 120px;
     padding: 50px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
 }
 
 .block-div h2 {
@@ -82,6 +85,7 @@ header nav ul li {
     color: yellow;
 
 }
+
 
 header h1 {
     color: blanchedalmond;
@@ -97,8 +101,7 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
-    background-color: blanchedalmond;  
-   
+    background-color: blanchedalmond;    
 }
 
 footer h3 {
@@ -110,6 +113,7 @@ footer h3 {
 
 .contact-method {
     display: flex;
+    flex-wrap: wrap;
 }
 
 
