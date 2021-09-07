@@ -5,7 +5,7 @@
 }
 
 
-header {
+header{
     background-color: rebeccapurple;
     display: flex;
     justify-content: space-between;
@@ -13,9 +13,9 @@ header {
     position: sticky;
     top: 0;
 }    
-/* still not working */
-h1 {
-    color:blanchedalmond;
+
+h1 a {
+    color:black;
 }
 
 header nav ul li a {
@@ -32,7 +32,7 @@ header h1 {
     flex-direction:row;
     /* padding: 50px; */
     align-items: center;
-    background-color: black;
+    background-color: whitesmoke;
 }
 
 
@@ -41,13 +41,13 @@ header h1 {
 }
 
 .block-1 {
-    background-color: rosybrown;
+    /* background-color:rebeccapurple; */
     padding: 50px;
-    margin-left: 120px;
-    width: 400;
-    height: 400;
-    display: flex;
-    margin-bottom: 20px;
+    width: 1000%;
+    height: 1000%;
+    /* display: flex; */
+    margin-top: 20px;
+    background-image: url(../assets/images/pexels-photo-2670898.jpeg);
 }
 
 .block-1 h2 {
@@ -60,18 +60,22 @@ header h1 {
 
 .block-2 {
     background-color: rosybrown;
+    display: flex;
     margin-left: 120px;
     padding: 50px;
     margin-bottom: 20px;
 }
 
 .block-3 {
-    background-color: rosybrown;
-    width: 400;
-    height: 400;
+    /* background-color: rosybrown; */
+    width: 1350px;
+    height: 1350px;
     margin-left: 120px;
     padding: 50px;
     margin-bottom: 20px;   
+    display: flex;
+    display: wrap;
+    justify-content: space-between;
 }
 
 .block-div h2 {
@@ -99,9 +103,11 @@ header h1 {
 }
 .block-4 {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     flex-direction:row;
-    background-color: blanchedalmond;    
+    flex-wrap: wrap;
+    /* background-color: blanchedalmond;     */
+    width: 100%;
 }
 
 footer h3 {
@@ -111,10 +117,51 @@ footer h3 {
     margin-top: 10px;  
 }
 
-.contact-method {
+/* .contact-method {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.container {
     display: flex;
     flex-wrap: wrap;
 }
+
+
+#sub-block1 {
+    /* display: flex; */
+    background-color: black;
+    width: 50%;
+    /* display;  */
+}
+
+#sub-block2 {
+    /* display: flex; */
+    background-color: black;
+    width: 50%;
+    margin: 20px;
+    float: right;
+
+}
+
+
+#sub-block3 {
+    /* display: flex; */
+    background-color: black;
+    width: 50%;
+    margin: 20px;
+
+}
+
+#sub-block4 {
+    /* display: flex; */
+    background-color: black;
+    width: 50%;
+    margin: 20px;
+
+}
+
+
 
 
    
